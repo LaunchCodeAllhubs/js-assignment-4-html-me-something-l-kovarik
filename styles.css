@@ -7,6 +7,8 @@
 body {
     display: block;
     margin: 8px;
+    background-color: bisque;
+    font-size: 1.18rem;
 }
 
 p {
@@ -15,13 +17,11 @@ p {
     font: Georgia;
 }
 
-#subtitle {
+h2 {
     margin: 30px 50px;
     font-family: Cambria;
-
+    color: #1F3540;
 }
-   
-
 
 article {
     margin: 25px 50px;
@@ -30,13 +30,10 @@ article {
 .row {
     display: flex;
     vertical-align: middle;
-   
   }
 
 .img-column {
-    flex: 30%;
-    
-    
+    flex: 30%;   
 }  
 
 .column {
@@ -45,13 +42,14 @@ article {
 
 h3 {
     font: Georgia;
+    font-size: x-large;
     font-style: italic;
+    text-indent: 4rem;
+    color: #1F3540;
 }
-
 
 img {
     margin: 15px;
-    
     border-style: solid;
     border: width 3px;;
     border-color: #c3c3c3;
@@ -62,6 +60,7 @@ img {
     border-style: solid;
     border-color:#c3c3c3;
     padding: 25px;
+    background-color: #efefef;
 }
 
 #closing {
@@ -69,12 +68,10 @@ img {
     padding: 25px;
     text-align: center;
     font-family: Cambria;
-    
 }
 
 footer {
-    font-size: small;
-    
+    font-size: medium; 
 }
 
 .funParagraph {
