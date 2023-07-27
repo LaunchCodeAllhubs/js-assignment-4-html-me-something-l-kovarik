@@ -1,5 +1,5 @@
 /* Write your CSS here! */
-#main-heading {
+h1 {
     text-align: center;
     color: red;
 }
